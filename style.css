@@ -1,0 +1,54 @@
+.mainbox {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #f2d8c4;
+    justify-content: center;
+    position: relative;
+}
+
+.titlebox {
+    display: flex;
+    font-size: 38px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.fas {
+    color: black;
+    margin-right: 15px;
+}
+
+.box1 {
+    font-size: 32px;
+    background-color: #f2d8c4;
+}
+
+.formbox {
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 110px;
+}
+
+.inputamount {
+    width: 100px;
+}
+
+.formtext1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.formtext2 {
+    font-weight: 600;
+}
+
+.formtext3 {
+    font-weight: 600;
+    margin-left: 5px;
+}
