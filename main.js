@@ -1,5 +1,5 @@
 function calculateEurExchange(input) {
-    fetch("http://api.nbp.pl/api/exchangerates/rates/a/eur/")
+    fetch("https://api.nbp.pl/api/exchangerates/rates/a/eur/")
         .then((data) => data.json())
         .then((data) => {
             console.log("Kurs euro", data.rates[0].mid);
@@ -11,7 +11,7 @@ function calculateEurExchange(input) {
 }
 
 function calculateUsdExchange(input) {
-    fetch("http://api.nbp.pl/api/exchangerates/rates/a/usd/")
+    fetch("https://api.nbp.pl/api/exchangerates/rates/a/usd/")
         .then((data) => data.json())
         .then((data) => {
             console.log("Kurs dolar amerykański", data.rates[0].mid);
@@ -23,7 +23,7 @@ function calculateUsdExchange(input) {
 }
 
 function calculateChfExchange(input) {
-    fetch("http://api.nbp.pl/api/exchangerates/rates/a/chf/")
+    fetch("https://api.nbp.pl/api/exchangerates/rates/a/chf/")
         .then((data) => data.json())
         .then((data) => {
             console.log("Kurs frank szwajcarski", data.rates[0].mid);
